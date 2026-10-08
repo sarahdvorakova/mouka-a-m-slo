@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Mouka & máslo – domácí pečení: kynuté skořicové šneky, pizza šneky, kefírové buchtičky a anglické rohlíky.">
+  <title>Mouka & máslo | Domácí pečení</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="container header__inner">
+      <a href="#home" class="logo">
+        <img src="pictures/logo.png" alt="Logo Mouka & máslo" class="logo__img">
+    
+      </a>
+      <button class="nav-toggle" aria-label="Otevřít menu" aria-expanded="false">☰</button>
+      <nav class="nav" id="nav">
+        <a href="#nabidka">Nabídka</a>
+        <a href="#o-mne">O mně</a>
+        <a href="#jak-objednat">Jak objednat</a>
+        <a href="#objednavka" class="nav__cta">Objednat</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="home" class="hero">
+      <div class="container hero__inner">
+        <img src="logo.png" alt="Logo Mouka &amp; máslo" class="hero__logo" onerror="this.remove()">
+        <p class="hero__eyebrow">Domácí pečení s láskou</p>
+        <h1>Mouka &amp; máslo</h1>
+        <p class="hero__text">Kynuté skořicové šneky, pizza šneky, kefírové buchtičky a anglické rohlíky. Pečené doma, z poctivých surovin a čerstvé na objednávku.</p>
+        <a href="#objednavka" class="btn">Chci si objednat</a>
+      </div>
+    </section>
+
+    <!-- NABÍDKA -->
+    <section id="nabidka" class="section">
+      <div class="container">
+        <h2 class="section__title">Co pro vás upečeme</h2>
+        <p class="section__lead">Všechno se peče z kynutého těsta, ručně a v malých dávkách.</p>
+
+        <div class="cards">
+          <article class="card">
+            <div class="card__icon" aria-hidden="true">🥐</div>
+            <h3>Skořicové šneky</h3>
+            <p>Voňavé kynuté šneky plněné skořicí a máslem, zakončené krémovou polevou <h3>   45Kč   </h3>
+          </article>
+
+          <article class="card">
+            <div class="card__icon" aria-hidden="true">🍕</div>
+            <h3>Pizza šneky</h3>
+            <p>Slaná varianta se sýrem a šunkou. Ideální na svačinu, na výlet i na party <h3>   35Kč   </h3>
+          </article>
+
+          <article class="card">
+            <div class="card__icon" aria-hidden="true">🥯</div>
+            <h3>Kefírové buchtičky</h3>
+            <p>Nadýchané buchtičky z kefírového těsta. Jemné, měkké a hodně nebudou dlouho <h3>   30Kč   </h3>
+          </article>
+
+          <article class="card">
+            <div class="card__icon" aria-hidden="true">🍞</div>
+            <h3>Anglické rohlíky</h3>
+            <p>Klasické english muffins: křupavé zvenku, vláčné uvnitř. Skvělé ke snídani   <h3>   40Kč   </h3>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- O MNĚ -->
+    <section id="o-mne" class="section section--alt">
+      <div class="container about">
+        <div>
+          <h2 class="section__title">O mně</h2>
+          <p>Pečeme doma a pečeme ráda. U každé dávky záleží na času, trpělivosti a dobrých surovinách, tedy na mouce a másle.</p>
+          <p>Sem napište svůj příběh: jak jste začala péct, co vás baví a proč si zákazníci mají objednat právě u vás.</p>
+        </div>
+        <ul class="about__list">
+          <li>✔ Čerstvé pečení na objednávku</li>
+          <li>✔ Poctivé suroviny, žádná chemie</li>
+          <li>✔ Ruční výroba v malých dávkách</li>
+          <li>✔ Možnost dárkového balení</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- JAK OBJEDNAT -->
+    <section id="jak-objednat" class="section">
+      <div class="container">
+        <h2 class="section__title">Jak objednat</h2>
+        <ol class="steps">
+          <li><span>1</span><div><h3>Vyberte si</h3><p>Zvolte, co si chcete dopřát, a kolik kusů.</p></div></li>
+          <li><span>2</span><div><h3>Pošlete objednávku</h3><p>Vyplňte formulář níže a napište, na kdy pečivo potřebujete.</p></div></li>
+          <li><span>3</span><div><h3>Potvrdím termín</h3><p>Ozvu se vám a domluvíme přesné vyzvednutí nebo doručení.</p></div></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- OBJEDNÁVKA -->
+    <section id="objednavka" class="section section--alt">
+      <div class="container order">
+        <div>
+          <h2 class="section__title">Objednávka</h2>
+          <p>Napište, co byste chtěli, a já se vám co nejdřív ozvu.</p>
+          <ul class="contact">
+            <li>📧 moukamaslo@email.cz</li>
+            <li>📞 +420 775 420 111</li>
+            <li>📷 @mouka.a.maslo</li>
+          </ul>
+          <p class="note">Kontakty výše jsou zástupné, přepište je na své.</p>
+        </div>
+
+        <form class="form" id="contactForm" novalidate>
+          <label for="name">Jméno</label>
+          <input type="text" id="name" name="name" required>
+
+          <label for="email">E-mail nebo telefon</label>
+          <input type="text" id="email" name="email" required>
+
+          <label for="product">Co si objednáte</label>
+          <select id="product" name="product" required>
+            <option value="">Vyberte…</option>
+            <option>Skořicové šneky</option>
+            <option>Pizza šneky</option>
+            <option>Kefírové buchtičky</option>
+            <option>Anglické rohlíky</option>
+            <option>Mix více druhů</option>
+          </select>
+
+          <label for="date">Na kdy</label>
+          <input type="date" id="date" name="date" required>
+
+          <label for="message">Poznámka (počet kusů, alergie, dárkové balení…)</label>
+          <textarea id="message" name="message" rows="4"></textarea>
+
+          <button type="submit" class="btn">Odeslat objednávku</button>
+          <p class="form__status" id="formStatus" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p class="footer__logo">Mouka &amp; máslo</p>
+      <p>&copy; <span id="year"></span> Mouka &amp; máslo. Pečeno s láskou.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
